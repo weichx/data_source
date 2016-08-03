@@ -1,0 +1,21 @@
+{
+  "name": "data_source",
+  "version": "4.0.3",
+  "description": "Unified JS Data Source",
+  "main": "dist/data_source.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "data_source",
+    "data",
+    "source"
+  ],
+  "author": "Matt Weichselbaum",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-tsc": "1.1.0"
+  }
+}

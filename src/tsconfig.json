@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "target": "es5",
+    "declaration": true,
+    "listFiles": true,
+    "diagnostics": true,
+    "noResolve": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "../dist",
+    "noEmitOnError": true,
+    "version": true
+  }
+}

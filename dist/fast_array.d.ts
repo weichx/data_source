@@ -1,0 +1,15 @@
+export declare type SortFn = (a: any, b: any) => number;
+export declare function Allocate(size?: number): Array<any>;
+export declare function Copy(array: Array<any>, start: number, end: number): Array<any>;
+export declare function CopyInto(dest: Array<any>, src: Array<any>, destStartIndex?: number): number;
+export declare function Sort(array: Array<any>, sortFn: (a: any, b: any) => number): void;
+export declare function IndexOf(array: Array<any>, item: any): number;
+export declare function IndexOfId(array: Array<any>, id: string): number;
+export declare function FindById(array: Array<any>, id: string): any;
+export declare function Remove(array: Array<any>, item: any): number;
+export declare function RemoveById(array: Array<any>, id: string): number;
+export declare function RemoveAt(array: Array<any>, index: number): void;
+export declare function InsertAt(array: Array<any>, item: any, index: number): void;
+export declare function InsertManyAt(array: Array<any>, items: Array<any>, startIndex: number): void;
+export declare function SortedInsert(array: Array<any>, element: any, sortFn: any): number;
+export declare function BinaryIndexOf(array: Array<any>, element: any, sortFn: (a: any, b: any) => number): number;
